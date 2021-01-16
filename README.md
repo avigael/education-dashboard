@@ -2,6 +2,8 @@
 
 This is an educational dashboard designed to replicate the student portal university students see when registering for classes. This website is complete with the ability to view courses and their sections, enroll in a course, see previously completed courses, and recommend courses based on previous courses you enjoyed. I built this website using React and a custom [API](https://github.com/avigael/test-course-api "API") I built specifically for this project. The API is used to host course information and completed course information and was built using Python and Flask.
 
+Check out the website [here](https://avigael.github.io/education-dashboard/ "Demo").
+
 [![Screenshot](https://raw.githubusercontent.com/avigael/education-dashboard/main/screenshot.png "Website")](https://avigael.github.io/education-dashboard/ "Website")
 
 ### More Information
