@@ -18,6 +18,7 @@ class App extends React.Component {
       interests: [],
       cartCourses: {},
       recommendedCourses: {},
+      loading: true,
     };
   }
 
@@ -37,6 +38,7 @@ class App extends React.Component {
       filteredCourses: courseData,
       subjects: this.getSubjects(courseData),
       keywords: this.getKeywords(courseData),
+      loading: false,
     });
   }
 
@@ -262,7 +264,7 @@ class App extends React.Component {
               subjects={this.state.subjects}
               keywords={this.state.keywords}
             />
-            <div style={{ marginLeft: "20vw" }}>
+            <div style={{ marginLeft: "20vw", paddingTop: "8px"}}>
               <CourseArea
                 data={this.state.filteredCourses}
                 addCartCourse={(data) => this.addCartCourse(data)}
@@ -270,11 +272,12 @@ class App extends React.Component {
                 cartCourses={this.state.cartCourses}
                 completed={this.state.completedCourses}
                 interests={false}
+                loading={this.state.loading}
               />
             </div>
           </Tab>
           <Tab eventKey="cart" title="Cart" style={{ paddingTop: "5vh" }}>
-            <div style={{ marginLeft: "20vw" }}>
+            <div style={{ marginLeft: "20vw", paddingTop: "8px"}}>
               <CourseArea
                 data={this.getCartData()}
                 setCourses={(courses) => this.setCourses(courses)}
@@ -283,6 +286,7 @@ class App extends React.Component {
                 cartCourses={this.state.cartCourses}
                 completed={this.state.completedCourses}
                 interests={false}
+                loading={this.state.loading}
               />
             </div>
           </Tab>
@@ -291,7 +295,7 @@ class App extends React.Component {
             title="Completed Courses"
             style={{ paddingTop: "5vh" }}
           >
-            <div style={{ marginLeft: "20vw" }}>
+            <div style={{ marginLeft: "20vw", paddingTop: "8px" }}>
               <PrevCourseArea
                 data={this.state.filteredCourses}
                 completed={this.state.completedCourses}
@@ -307,7 +311,7 @@ class App extends React.Component {
             title="Recommended Courses"
             style={{ paddingTop: "5vh" }}
           >
-            <div style={{ marginLeft: "20vw" }}>
+            <div style={{ marginLeft: "20vw", paddingTop: "8px"}}>
               <CourseArea
                 data={this.getRecommended()}
                 addCartCourse={(data) => this.addCartCourse(data)}
@@ -315,6 +319,7 @@ class App extends React.Component {
                 cartCourses={this.state.cartCourses}
                 completed={this.state.completedCourses}
                 interests={true}
+                loading={this.state.loading}
               />
             </div>
           </Tab>

@@ -302,7 +302,7 @@ class Course extends React.Component {
 
   getDescription() {
     if (this.state.expanded) {
-      return <div>{this.props.data.description}</div>;
+      return <div class="my-2">{this.props.data.description}</div>;
     }
   }
 

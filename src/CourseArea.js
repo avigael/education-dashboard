@@ -6,6 +6,12 @@ class CourseArea extends React.Component {
   getCourses() {
     let courses = [];
 
+    if (this.props.loading) {
+      courses.push(<div class="spinner-border text-primary my-4 mx-3" role="status">
+      </div>);
+      return courses
+    }
+
     if (Array.isArray(this.props.data)) {
       for (let i = 0; i < this.props.data.length; i++) {
         let canEnroll = this.checkRequisites(this.props.data[i].requisites);
