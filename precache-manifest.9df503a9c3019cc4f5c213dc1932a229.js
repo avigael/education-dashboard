@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d48ad59047dffebc2df0b14ad669ec7",
+    "revision": "25a88f3222caf5d7e76398a942f17c3d",
     "url": "/education-dashboard/index.html"
   },
   {
-    "revision": "a06c2451ad0b3197abd6",
+    "revision": "4a2a0be5647ecf0c84d6",
     "url": "/education-dashboard/static/css/main.978039e2.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/education-dashboard/static/js/2.204f3370.chunk.js"
   },
   {
-    "revision": "a06c2451ad0b3197abd6",
-    "url": "/education-dashboard/static/js/main.68378537.chunk.js"
+    "revision": "4a2a0be5647ecf0c84d6",
+    "url": "/education-dashboard/static/js/main.18979fa4.chunk.js"
   },
   {
     "revision": "d67672d395d7e5251227",

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/education-dashboard/static/css/main.978039e2.chunk.css",
-    "main.js": "/education-dashboard/static/js/main.68378537.chunk.js",
-    "main.js.map": "/education-dashboard/static/js/main.68378537.chunk.js.map",
+    "main.js": "/education-dashboard/static/js/main.18979fa4.chunk.js",
+    "main.js.map": "/education-dashboard/static/js/main.18979fa4.chunk.js.map",
     "runtime~main.js": "/education-dashboard/static/js/runtime~main.1b6f9841.js",
     "runtime~main.js.map": "/education-dashboard/static/js/runtime~main.1b6f9841.js.map",
     "static/js/2.204f3370.chunk.js": "/education-dashboard/static/js/2.204f3370.chunk.js",
     "static/js/2.204f3370.chunk.js.map": "/education-dashboard/static/js/2.204f3370.chunk.js.map",
     "index.html": "/education-dashboard/index.html",
-    "precache-manifest.96ae7f3208d8c7126d0b091283f3e248.js": "/education-dashboard/precache-manifest.96ae7f3208d8c7126d0b091283f3e248.js",
+    "precache-manifest.9df503a9c3019cc4f5c213dc1932a229.js": "/education-dashboard/precache-manifest.9df503a9c3019cc4f5c213dc1932a229.js",
     "service-worker.js": "/education-dashboard/service-worker.js",
     "static/css/main.978039e2.chunk.css.map": "/education-dashboard/static/css/main.978039e2.chunk.css.map"
   }
